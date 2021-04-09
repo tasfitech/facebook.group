@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background: #f0f2f5;
+
+    font-family:sans-serif; 
+}
+.login-signup
+{
+    margin-top: 132px;
+}
+.container
+{
+    max-width: 980px;
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between
+{
+    justify-content: space-between;
+}
+.left-area
+{
+    max-width: 490px;
+    padding-top: 70px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  
+}
+.left-area h2
+{
+    font-weight: 100;
+    margin-top: 10px;
+
+}
+.right-area
+{
+    width: 420px;
+    margin: auto; 
+    
+}
+.right-area form
+{
+    width: 400px;
+    height: 346px;
+    background:#fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0.4px 2.4px 22.8px -9.7px #000;
+}
+.right-area form .input-box input
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #c3c6ca;
+    padding: 20px;
+    font-size: 17px;
+    color: #1d213d;
+    caret-color: #1877f2;
+}
+.right-area form .input-box input:focus
+{
+    border: 1px solid #1877f2;
+    transition: .04s;
+}
+.right-area form .input-box input::placeholder
+{
+    font-size: 17px;
+    font-weight: 300;
+    color:#c3c6ca ;
+}
+form .input-box input[type="submit"]
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    background: #1877f2;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 550;
+    border: none;
+    line-height: 1.7px;
+}
+form .input-box input[type="submit"]:hover
+{
+    background: #116be0;
+    transition: .46s;
+}
+.right-area form .forgot-link
+{
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #c3c6ca;
+}
+.right-area form .forgot-link:hover
+{
+    text-decoration: underline;
+}
+.right-area form .create-btn
+{
+    text-align: center;
+}
+.right-area form .create-btn a
+{
+    text-decoration: none;
+    background: #42b72a;
+    border-radius: 8px;
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 25px;
+    display: inline-block;
+}
+.right-area form .create-btn a:hover
+{
+    background: #329b1e;
+    transition: .2s;
+}
+.right-area p
+{
+    font-size: 13px;
+    color: #151624;
+    text-align: center;
+    margin-top: 30px;
+}
+.right-area p a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* ====================================== media queries applyed =========================================== */
+
+@media screen and (max-width:909px)
+{
+
+
+    .left-area 
+    {
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:500px)
+{
+
+    .right-area form
+    {
+        width: 240px;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width:340px)
+{
+    .left-area
+    {
+        max-width: 300px;
+    }
+}
+
+
